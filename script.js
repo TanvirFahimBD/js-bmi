@@ -1,4 +1,4 @@
-// //select dom element
+//select dom element
 let weightEl = document.getElementById('weightInput');
 let heightEl = document.getElementById('heightInput');
 let resultEl = document.getElementById('result');
@@ -11,6 +11,7 @@ function calculateBmi(e) {
     let weight = parseFloat(weightEl.value);
     let height = parseFloat(heightEl.value);
     let BMI = parseFloat(weight / (height * height));
-    // 1.524 + 0.1016
-    resultEl.innerHTML = BMI;
+    resultEl.innerHTML = `Your BMI result: ${BMI}`;
 }
+
+
