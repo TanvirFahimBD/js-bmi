@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+    <!-- css link  -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- google font link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap"
+      rel="stylesheet"
+    />
+    <!-- TODO: favicon add  -->
+  </head>
+  <body>
+    <div id="bmi-form">
+      <h1>BMI Calculator</h1>
+      <!-- form  -->
+      <form>
+        <input
+          type="text"
+          id="weightInput"
+          placeholder="Enter your weight in kg"
+        />
+        <br />
+        <br />
+        <input
+          type="text"
+          id="heightInput"
+          placeholder="Enter your height in meter"
+        />
+        <br />
+        <br />
+        <button id="calculateBtn">Calculate BMI</button>
+      </form>
+      <p id="result"></p>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

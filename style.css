@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+    font-family: 'Alkatra', cursive;
+    background-image: url('./images/chander-r-z4WH11FMfIQ-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+#bmi-form{
+    background-image: url('./images/victor-freitas-WvDYdXDzkhs-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    width: 50%;
+    border-radius: 10px;
+    padding: 10px;
+}
